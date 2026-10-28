@@ -5,3 +5,6 @@
 -- LazyVim auto format
 vim.g.autoformat = false
 vim.opt.relativenumber = false
+
+-- basedpyright is installed via pip and bundles its own Node; pyright needs a system Node
+vim.g.lazyvim_python_lsp = "basedpyright"
